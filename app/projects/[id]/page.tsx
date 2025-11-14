@@ -1,11 +1,20 @@
+// app/projects/[id]/page.tsx
 import PropertyCard from "@/components/property-card";
-import { propertyById } from "@/data/properties";
+import { propertyById, PROPERTIES } from "@/data/properties";
 import { notFound } from "next/navigation";
 
 type Props = { params: { id: string } };
 
+// 👇 Required for `output: "export"` with a dynamic [id] route
+export function generateStaticParams() {
+  return PROPERTIES.map((p) => ({
+    id: String(p.id), // ensure it's a string, matches your Map keys
+  }));
+}
+
 export default function ProjectDetailPage({ params }: Props) {
   const data = propertyById.get(params.id);
+
   if (!data) return notFound();
 
   return (
