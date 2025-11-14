@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next
+/.next/
+out/
+/build
+
+# production
+*.log
+
+# misc
+.DS_Store
+.env*
