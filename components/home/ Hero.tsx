@@ -52,9 +52,9 @@ export default function Hero() {
               that inspire growth and success.
             </p>
 
-            <div className="hidden md:block mt-8 md:mt-10 max-w-xl mx-auto lg:mx-0">
+            {/* <div className="hidden md:block mt-8 md:mt-10 max-w-xl mx-auto lg:mx-0">
               <SearchBar />
-            </div>
+            </div> */}
           </div>
 
           {/* If you want to put CardFanSlider back later, it can stay here */}
