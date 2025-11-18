@@ -5,7 +5,6 @@ export default function About() {
   return (
     <div>
       <AboutSection />
-      <CurvyLine />
     </div>
   );
 }

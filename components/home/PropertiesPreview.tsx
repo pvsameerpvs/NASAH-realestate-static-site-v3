@@ -4,12 +4,9 @@ import CurvyLine from "../shared/curvy-line";
 
 export default function PropertiesPreview() {
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
-      <div className="mt-10">
-        <CurvyLine />
-      </div>
+    <section className="max-w-7xl mx-auto  md:px-8 py-5 md:py-20">
       {/* Heading + Description */}
-      <div className="flex items-end justify-between">
+      <div className="flex items-end justify-between px-6">
         <h2 className="text-5xl md:text-6xl font-black leading-tight">
           FEATURED <br className="hidden md:block" /> PROPERTIES
         </h2>
@@ -20,7 +17,7 @@ export default function PropertiesPreview() {
           See all
         </a>
       </div>
-      <p className="mt-4 max-w-2xl opacity-70">
+      <p className="mt-4 max-w-2xl opacity-70 px-6">
         Discover our hand-picked selection of properties designed for comfort,
         elegance, and convenience — each crafted to match your lifestyle.
       </p>
@@ -36,9 +33,6 @@ export default function PropertiesPreview() {
         >
           View All Properties
         </a>
-      </div>
-      <div className="mt-10">
-        <CurvyLine />
       </div>
     </section>
   );

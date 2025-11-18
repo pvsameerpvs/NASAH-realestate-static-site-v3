@@ -62,10 +62,6 @@ export default function Hero() {
             <CardFanSlider ... />
           </div> */}
         </div>
-
-        <div className="">
-          <CurvyLine />
-        </div>
       </div>
     </section>
   );

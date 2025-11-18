@@ -173,7 +173,7 @@ export default function DubaiCommunitiesSection() {
     )}`;
 
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-8 py-20">
+    <section className="max-w-7xl mx-auto px-6 md:px-8 py-5">
       {/* Heading */}
       <div className="max-w-3xl">
         <p className="text-sm md:text-base tracking-[0.25em] uppercase opacity-70">

@@ -4,7 +4,7 @@ import CurvyLine from "../shared/curvy-line";
 
 export default function ServicesPreview() {
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
+    <section className="max-w-7xl mx-auto px-6 md:px-8 py-5 md:py-20">
       <div className="flex items-end justify-between">
         <h2 className="text-5xl md:text-6xl font-black leading-tight">
           OUR <br className="hidden md:block" /> SERVICES
@@ -34,9 +34,6 @@ export default function ServicesPreview() {
         >
           View All Services
         </a>
-      </div>
-      <div className="mt-10">
-        <CurvyLine />
       </div>
     </section>
   );

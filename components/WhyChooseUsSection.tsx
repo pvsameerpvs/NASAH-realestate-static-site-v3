@@ -28,7 +28,7 @@ the right time — focusing on long-term partnerships over one-time deals.`,
 
 export default function WhyChooseUsSection() {
   return (
-    <section className="max-w-7xl mx-auto md:px-8 py-24 relative">
+    <section className="max-w-7xl mx-auto md:px-8 py-5 relative">
       {/* Heading */}
       <div className="max-w-xl">
         <h2 className="text-4xl md:text-5xl font-black leading-tight">
